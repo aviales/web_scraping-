@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @vehicle.title %>
+</p>
+
+<p>
+  <strong>Stock type:</strong>
+  <%= @vehicle.stock_type %>
+</p>
+
+<p>
+  <strong>Exterior color:</strong>
+  <%= @vehicle.exterior_color %>
+</p>
+
+<p>
+  <strong>Interior color:</strong>
+  <%= @vehicle.interior_color %>
+</p>
+
+<p>
+  <strong>Transmission:</strong>
+  <%= @vehicle.transmission %>
+</p>
+
+<p>
+  <strong>Drivetrain:</strong>
+  <%= @vehicle.drivetrain %>
+</p>
+
+<p>
+  <strong>Price:</strong>
+  <%= @vehicle.price %>
+</p>
+
+<p>
+  <strong>Miles:</strong>
+  <%= @vehicle.miles %>
+</p>
+
+<%= link_to 'Edit', edit_vehicle_path(@vehicle) %> |
+<%= link_to 'Back', vehicles_path %>
